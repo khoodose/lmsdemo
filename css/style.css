@@ -1,0 +1,155 @@
+.navbar {
+  margin: 0px;
+}
+
+.navbar-default .navbar-brand .navbar-brand-custom {
+  color: #7AE8DB;
+}
+
+.navbar-default .navbar-brand {
+  font-weight: bold;
+  font-size: 1.8em;
+}
+
+#progress-bar {
+  /*background-color: black;*/
+  margin-top: 55px;
+  margin-left: 80px;
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+  font-size: 1.3em;
+}
+
+#progress-bar ul {
+  list-style-type: circle;
+}
+
+#progress-bar li {
+  margin-left: -10px;
+  margin-bottom: 30px;
+}
+
+#progress-bar li a {
+  color: #403f34;
+
+}
+
+#progress-title {
+  margin-left: 5px;
+}
+
+#left-cover {
+  background-color: #D7D3AE;
+  height: 800px;
+  /*opacity: 0.2;*/
+  margin: 0px 0px 0px 60px;
+  padding: 0px;
+  color: darkGrey;
+}
+
+#left-panel {
+  background-color: #88C4C2;
+  color: #403f34;
+  height: 800px;
+  margin: 0px;
+  padding: 0px;
+}
+
+#main-content {
+  background-color: ##F4F0CB;
+  color: darkGrey;
+  height: 800px;
+}
+
+#my-messages {
+  background-color: blue;
+  margin: 10px;
+  height: 200px;
+}
+
+#my-activity {
+  background-color: purple;
+  margin: 10px;
+  height: 200px;
+}
+
+.course-title {
+  color: #38A77B;
+  font-weight: bold;
+}
+
+.panel-default {
+  background-color: #5C5859;
+  color: white;
+}
+
+.btn-primary {
+  background-color: #0A7A6C;
+  width: 100px;
+  margin: 0px 20px 0px 20px;
+}
+
+.btn-primary:hover {
+  background-color: #192D2B;
+}
+
+#evaluation-form {
+  width: 550px;
+  height: 750px;
+  padding: 20px;
+  margin-right: 20px;
+  background-image: url("../img/clipboard.png");
+  /*background-color: orange;*/
+  background-size: 500px 700px;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: black;
+}
+
+#evaluation-form-content {
+  margin-top: 150px;
+}
+
+#survey-questions ul {
+list-style-type: none;
+}
+
+#dashboard {
+  height: 500px;
+  background-image: url("../img/dashboard.png");
+  background-size: 750px 500px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#gameboard img {
+  width: 100%;
+}
+
+.vertical-line {
+  border-left: thick solid #ff0000;
+}
+
+input[type="radio"]{
+  margin: 0 10px 0 10px;
+}
+
+video {
+  width: 100%    !important;
+  height: auto   !important;
+}
+
+@media screen and (max-width: 1024px) {
+  #left-panel { display: none; }   /* hide it elsewhere */
+  #main-content { width: 100%; }
+  #evaluation-form { width: 100%; }
+}
+
+@media screen and (max-width: 800px) {
+  #dashboard {
+    background-image: url("../img/dashboard-small.png");
+    height: 300px;
+    background-size: 350px 300px;
+  }
+}
